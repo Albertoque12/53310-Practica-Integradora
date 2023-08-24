@@ -4,7 +4,6 @@ import handlebars from 'express-handlebars'
 import fileDirName from "./utils.js"
 import vRouter from "./routes/views.route.js"
 import mongoose from "mongoose"
-import config from '../data.js'
 import pRouter from "./routes/products.route.js"
 import cartsRouter from "./routes/carts.route.js"
 import configureSocket from "./public/socket/configure.socket.js"
